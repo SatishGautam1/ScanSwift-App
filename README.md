@@ -1,64 +1,56 @@
-# ScanSwift 🔍
+# 📥 Download ScanSwift
 
-ScanSwift is a high-performance, professional-grade Android application designed for seamless QR code and barcode scanning and generation. Built with a focus on speed, privacy, and user experience, it includes "Smart Parsing" logic to extract exactly what you need.
+Welcome to the official distribution repository for **ScanSwift**, the professional QR & Barcode tool for Android. 
+
+ScanSwift is designed for 2026 standards: fast, secure, and intelligent. Unlike standard scanners, ScanSwift "understands" what you scan—whether it's a complex Wi-Fi configuration or a digital payment ID.
 
 
----
-## 🌟 Key Features
 
-- **Smart Scanner:** Uses Google ML Kit for lightning-fast detection of QR codes and 1-D/2-D barcodes.
-- **Smart Copy Logic:** - **WiFi:** Automatically extracts and copies only the password.
-    - **Finance:** Identifies UPI/Banking QRs and extracts Account IDs/Payee addresses.
-    - **Websites:** Detects URLs and offers a one-tap open feature.
-- **Professional Generator:** Create custom QR codes for text or URLs.
-- **Dedicated Storage:** Saves generated and scanned images into a professional `/Pictures/ScanSwift` folder using Scoped Storage.
-- **Complete History:** Local database to keep track of all your scans and generations.
-- **Modern UI/UX:**
-    - Android 12+ Splash Screen API support.
-    - Haptic feedback (vibration and beep) for successful scans.
-    - Material 3 design with Bottom Sheet result previews.
----
-## 🛠 Tech Stack
+## 🚀 Get the Latest Version
 
-- **Language:** Java
-- **UI Framework:** Material Design Components (M3)
-- **Camera API:** CameraX
-- **Scanning Engine:** Google ML Kit (Barcode Scanning)
-- **Database:** Room Persistence Library
-- **Architecture:** ViewBinding, Repository Pattern
-- **Min SDK:** 24 (Android 7.0)
-- **Target SDK:** 34 (Android 14 / 2026 Ready)
+| Version | Release Date | Architecture | Download Link |
+| :--- | :--- | :--- | :--- |
+| **v1.0.0 (Stable)** | Jan 2026 | Universal (APK) | [**Download APK**]([https://github.com/YourUsername/RepoName/releases/latest](https://github.com/SatishGautam1/ScanSwift-App/releases/download/v1.0.0/ScanSwift_v1.0.0.apk)) |
 
 ---
 
-## 📂 Project Structure
+## ✨ Why ScanSwift?
 
-```text
-com.nighttech.scanswift
-├── data/           # Database, Entities, and Repository (Room)
-├── scanner/        # CameraX implementation and Image Analysis
-├── ui/             # Fragments (Scanner, Generator, Settings) and BottomSheets
-└── utils/          # QR Generation helpers and UI utilities
-```
+* **Smart Copy Logic:** Copies *only* the Wi-Fi password or *only* the Payment ID, saving you from manual editing.
+* **Professional Storage:** Automatically organizes your generated QRs into a clean `/Pictures/ScanSwift` folder.
+* **Privacy Focused:** Works entirely offline. Your scan history never leaves your device.
+* **Finance Ready:** Built-in support for Banking/UPI payment codes.
+* **Modern Experience:** Native Android 12+ Splash Screen and haptic feedback.
 
----
-## 🚀 Getting Started
-- **Clone the repository:** ```git clone https://github.com/SatishGautam1/ScanSwift.git```
-- **Open in Android Studio:** Ensure you have the latest Iguana or Jellyfish build (2024/2025+).
-- **Build & Run:** Connect your device and hit ```Shift + F10```.
 
----
-## 🛡 Permissions
-ScanSwift respects user privacy and only requests permissions when necessary:
-- ```CAMERA:``` To analyze and scan codes in real-time.
-- ```WRITE_EXTERNAL_STORAGE:```(Legacy) For saving QR codes to the gallery on older devices.
-- ```VIBRATE:``` For haptic feedback on successful scans.
 
 ---
 
-## 📄 License
-Distributed under the MIT License. See LICENSE for more information.
+## 🛠 How to Install
+
+Follow these steps to install ScanSwift on your Android device:
+
+1.  **Download the APK:** Click the download link in the table above.
+2.  **Open the File:** Once the download is complete, tap the file in your notification bar or "Downloads" folder.
+3.  **Allow Unknown Sources:** If prompted by Android, go to **Settings** and toggle on **"Allow from this source"** for your browser or file manager.
+4.  **Complete Installation:** Tap **Install** and then **Open**.
+
+> **Note:** ScanSwift requires **Android 7.0 (Nougat)** or higher.
 
 ---
 
-Developed by **NightTech** (2026)
+## 🛡 Security & Verification
+
+We take security seriously. Every APK released here is:
+- ✅ Scanned for malware.
+- ✅ Built directly from the official ScanSwift source code.
+- ✅ Verified with a NightTech release signature.
+
+---
+
+## 📬 Support & Feedback
+
+If you encounter any issues or have a feature request, please open an **Issue** in this repository or contact the NightTech team.
+
+---
+Developed with ❤️ by **NightTech** (2026)
