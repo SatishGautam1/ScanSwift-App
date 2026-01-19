@@ -10,7 +10,7 @@ ScanSwift is designed for 2026 standards: fast, secure, and intelligent. Unlike 
 
 | Version | Release Date | Architecture | Download Link |
 | :--- | :--- | :--- | :--- |
-| **v1.0.0 (Stable)** | Jan 2026 | Universal (APK) | [**Download APK**]([https://github.com/YourUsername/RepoName/releases/latest](https://github.com/SatishGautam1/ScanSwift-App/releases/download/v1.0.0/ScanSwift_v1.0.0.apk)) |
+| **v1.0.0 (Stable)** | Jan 2026 | Universal (APK) | [**Download APK**](https://github.com/SatishGautam1/ScanSwift-App/releases/download/v1.0.0/ScanSwift_v1.0.0.apk) |
 
 ---
 
