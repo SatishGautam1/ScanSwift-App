@@ -53,4 +53,4 @@ We take security seriously. Every APK released here is:
 If you encounter any issues or have a feature request, please open an **Issue** in this repository or contact the NightTech team.
 
 ---
-Developed with ❤️ by **NightTech** (2026)
+Developed by **NightTech** (2026)
